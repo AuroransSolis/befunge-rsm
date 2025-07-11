@@ -1,0 +1,22 @@
+{
+    "files.watcherExclude": {
+        "./befunge-rs/": true
+    },
+    "rust-analyzer.completion.autoimport.exclude": [
+        
+        {
+          "path": "./befunge-rs/"
+        },
+        {
+            "path": "core::borrow::Borrow",
+            "type": "methods"
+        },
+        {
+            "path": "core::borrow::BorrowMut",
+            "type": "methods"
+        }
+    ],
+    "rust-analyzer.files.exclude": [
+        "./befunge-rs/"
+    ]
+}

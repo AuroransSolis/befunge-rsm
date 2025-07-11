@@ -1,0 +1,20 @@
+[package]
+name = "befunge-if"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ciborium = "0.2.2"
+interprocess = "2.2.2"
+ron = "0.8.1"
+
+[dependencies.clap]
+version = "4.5.31"
+features = ["derive"]
+
+# [dependencies.befunge-tx]
+# path = "../befunge-tx"
+
+[dependencies.serde]
+version = "1.0.218"
+features = ["derive"]

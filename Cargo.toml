@@ -1,0 +1,6 @@
+[workspace]
+# members = ["befunge-dm", "befunge-if", "befunge-pm", "befunge-rs", "befunge-tx"]
+# members = ["befunge-dm", "befunge-if", "befunge-pm", "befunge-tx"]
+members = ["befunge-dm", "befunge-if", "befunge-pm"]
+exclude = ["befunge-rs"]
+resolver = "3"

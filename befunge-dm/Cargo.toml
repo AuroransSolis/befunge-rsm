@@ -1,0 +1,12 @@
+[package]
+name = "befunge-dm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[dependencies.befunge-pm]
+path = "../befunge-pm"
+
+[features]
+socket_debug_default = []
