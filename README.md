@@ -69,7 +69,8 @@ On that note, here's
 2. Navigate to `befunge-rs` and edit `src/main.rs` to point to the Befunge file you want to run.
    Also, set the debugging flags.
 3. Decide if you want to run with debug I/O. If yes, remember to add
-   `--features="socket_debug_default"` to your build/check/expand command.
+   `--features="socket_debug_default"` to your build/check/expand command and run another
+   `befunge-if` process on the `befunge.debug` socket.
 4. Run `cargo build`, `cargo check`, or `cargo expand`. This will execute the Befunge interpreter.
 
 # How does it work though???
